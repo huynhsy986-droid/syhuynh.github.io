@@ -1,0 +1,36 @@
+{
+  "name": "syhuynh.github.io",
+  "version": "1.0.0",
+  "description": "My Portfolio Website",
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "homepage": "https://github.com/huynhsy986-droid/syhuynh.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/huynhsy986-droid/syhuynh.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huynhsy986-droid/syhuynh.github.io.git"
+  },
+  "license": "ISC",
+  "author": "HUYNH TAN SY",
+  "type": "module",
+  "main": "index.js",
+
+  "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+   "preview": "vite preview"
+  },
+
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "autoprefixer": "^10.6.2",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^4.3.5",
+    "vite": "^8.3.8"
+  }
+}
